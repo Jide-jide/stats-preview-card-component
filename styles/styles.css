@@ -9,3 +9,37 @@
 	--font-primary: "Inter", sans-serif;
 	--font-secondary: "Lexend Deca", sans-serif;
 }
+
+body {
+	background: var(--color-Very-dark-blue-main-background);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background: var(--color-Dark-desaturated-blue-card-background);
+	display: grid;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
