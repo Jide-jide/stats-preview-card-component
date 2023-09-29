@@ -27,27 +27,73 @@ body {
 	background: var(--color-Dark-desaturated-blue-card-background);
 	display: grid;
 	border-radius: 10px;
-	max-width: 375px;
+	max-width: 328px;
 }
 
 @media screen and (min-width: 768px) {
 	.card {
 		grid-template-columns: repeat(2, 1fr);
-		max-width: none;
+		max-width: 1114px;
 	}
 }
 
+.benefits {
+	text-align: center;
+	padding: 3rem ;
+}
 
+@media screen and (min-width: 768px) {
+	.benefits {
+		text-align: left;
+		grid-column: 1;
+		width: 420px;
+	}
 
+	.achievements {
+		display: flex;
+		justify-content: space-between;
+	}
+}
 
+.benefits-header {
+	font-family: var(--font-primary);
+	color: var(--color-White-main-heading-stats);
+	font-size: 2.9rem;
+	font-weight: 700;
+}
 
+.benefits-header > span {
+	color: var(--color-Soft-violet-accent);
+}
 
+.benefits-desc {
+	color: var(--color-Slightly-transparent-white-main-paragraph);
+	font-family: var(--font-primary);
+	font-size: 1.5rem;
+	line-height: 1.8;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
 
+.achievements {
+	text-transform: uppercase;
+}
 
+.acheivements-numbers {
+	color: var(--color-White-main-heading-stats);
+	font-size: 2.2rem;
+	font-family: var(--font-primary);
+	font-weight: 700;
+	margin: 3rem 0 1rem 0;
+}
 
-
-
-
+.achievements-areas {
+	color: var(--color-Slightly-transparent-white-stat-headings);
+	font-size: 1.2rem;
+	font-family: var(--font-secondary);
+	letter-spacing: .1rem;
+	margin: 0;
+}
 
 .attribution { 
 	font-size: 11px; text-align: center; 
