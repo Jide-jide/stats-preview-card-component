@@ -15,13 +15,22 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: center;	
+
 }
 
 .card {
 	background: var(--color-Dark-desaturated-blue-card-background);
 	display: grid;
 	border-radius: 10px;
+	max-width: 375px;
+}
+
+@media screen and (min-width: 768px) {
+	.card {
+		grid-template-columns: repeat(2, 1fr);
+		max-width: none;
+	}
 }
 
 
