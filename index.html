@@ -16,7 +16,17 @@
 <body>
   <section class="card">
     <div class="image-container">
-      <img src="" alt="An image of a happy developer team">
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="images/image-header-desktop.jpg"
+        />
+        <img
+          class="card-image"
+          src="images/image-header-mobile.jpg"
+          alt="An image of a happy developer team"
+        />
+      </picture>
     </div>
     <div class="benefits">
       <h1 class="benefits-header">Get <span class="colored-text">insights</span> that help your business grow.</h1>
