@@ -19,8 +19,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;	
-
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 1rem;
 }
 
 .card {
@@ -49,6 +50,7 @@ body {
 		text-align: left;
 		grid-column: 1;
 		padding: rem;
+
 	}
 
 	.achievements {
@@ -147,9 +149,20 @@ body {
 
 
 .attribution { 
-	font-size: 11px; text-align: center; 
+	padding: 10px;
+	font-family: var(--font-primary);
+	font-size: 1.2rem; 
+	text-align: center; 
+	color: var(--color-Slightly-transparent-white-main-paragraph);
+	
 }
 
 .attribution a { 
-	color: hsl(228, 45%, 44%); 
+	color: white;
+	text-decoration: none; 
+}
+
+.attribution a:hover {
+	color: var(--color-Soft-violet-accent);
+	transition: .3s ease-out;
 }
