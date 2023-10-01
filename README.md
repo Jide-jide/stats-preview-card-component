@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I continued to apply my knowledge and made this project responsive 
+I continued to apply my knowledge and made this project responsive.
 
 ### Continued development
 
